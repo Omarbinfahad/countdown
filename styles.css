@@ -1,0 +1,51 @@
+/* 
+Fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+
+    background-image: url(./images/snow.jpg);
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.count-c{
+    display: flex;
+}
+
+
+h2{
+    font-size: 4rem;
+    margin-top: 7rem;
+    font-weight: normal;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 6rem;
+    
+}
+
+.c-el{
+
+    text-align: center;
+}
+
+.c-el span{
+    font-size: 2rem;
+    
+}
